@@ -1,246 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Abbos Mavlonov Portfolio Page">
-    <meta name="author" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abbos Mavlonov</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-	<link rel="stylesheet" href="assets/css/johndoe.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <header class="header">
-        <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-            </ul>  
-            <div class="header-content">
-                <h4 class="header-subtitle" >Hello, I am</h4>
-                <h1 class="header-title">Abbos Mavlonov</h1>
-                <h6 class="header-mono" >College Student | Major: Loading...</h6>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">AM</a>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#experiences" class="nav-link">Experiences</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#additional-info" class="nav-link">Additional Info</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#courses" class="nav-link">Courses</a>
+                <a href="#books" class="nav-link">Books</a>
+                <a href="#sports" class="nav-link">Sports</a>
+                <!-- <a href="#blog" class="nav-link">Blog</a>
+                <a href="#plans" class="nav-link">Plans</a> -->
             </div>
-        </div>
-    </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-        <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resume</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav brand">
-                    <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
-                    <li class="brand-txt">
-                        <h5 class="brand-title">Abbos Mavlonov</h5>
-                        <div class="brand-subtitle">High School Student | Aspiring Adventurer</div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
-                    </li>
-                    <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Who am I ?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3">College Student at CAU, Tashkent</h5>
-                <p class="mt-20">
-Highly motivated and versatile individual with a strong academic background in Accounting and Finance, complemented by hands-on experience in sales, journalism, and community service. Demonstrated leadership and organizational skills through founding and managing CleanRideUz, and effective communication and teaching abilities as an SAT English instructor. Proven track record of achieving high academic performance and contributing positively to community initiatives.
-		</p>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Abbos Mavlonov</h1>
+            <p class="hero-subtitle">
+                <code>&lt;Finance/&gt;</code> <code>&lt;Economics/&gt;</code> <code>&lt;DataScience/&gt;</code>
+              </p>
+              
+            <p class="hero-description">I haven't done anything extraordinary. But I've tried—truly. 
+                And in every failure, every attempt, every quiet night spent learning or building, 
+                I found something worth carrying forward.</p>
+            <div class="hero-buttons">
+                <a href="#experiences" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact</a>
             </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li><span>Birthdate</span> : 05/03/2006</li>
-                    <li><span>Email</span> : mabbos61@gmail.com</li>
-                    <li><span>Phone</span> : + (998) 905159789</li>
-                    <li><span>Instagram</span> : @abbosjon.mavlonov </li>
-                    <li><span>Address</span> :  19, 4, Sergeli 7 SG38, Tashkent, Uzbekistan.</li>
-                </ul>
-                <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-                </ul>  
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Web Development</h6>
-                        <p class="subtitle"> I am a junior frontend developer</p>
-                        <hr>
+        </div>
+        <div class="hero-visual">
+            <img src="aww.jpg" alt="Hero Photo" class="hero-image">
+        </div>
+        
+    </section>
+
+    <section id="experiences" class="section">
+        <div class="container">
+            <h2 class="section-title">Experiences</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2017 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Sales Assistant</h3>
+                        <p>Worked in the only retail store in the area, assisting over 200 customers daily. 
+                            Gained hands-on experience in merchandising, customer service, and sales strategies while supporting day-to-day operations in a fast-paced environment.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Graphic Design</h6>
-                        <p class="subtitle">I spent most of my time designing logos and posts for my projects</p>
-                        <hr>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Content Manager & Writer</h3>
+                        <p>Worked with a team of students to publish several issues of school journal. Fundraised money to support the poor in the community.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Project Manager</h6>
-                        <p class="subtitle">I have the experience of managing different projects</p>
-                        <hr>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Founder at CleanRide</h3>
+                        <p>Organized monthly events to collect waste by bikes with a team of volunteers</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>SAT Mentor</h3>
+                        <p>Developed and delivered a targeted SAT curriculum, combining test strategies with engaging teaching methods. 
+                            Led both virtual and in-person sessions </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Cofounder at United Scholars</h3>
+                        <p>Launched a collaborative platform to connect students for group study in IELTS, SAT, and Research skills. Helped students to apply to international programs.</p>
+                            Facilitated peer-to-peer learning and academic growth, supporting 100+ students</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Independent Researcher</h3>
+                        <p>Conducting self-directed research exploring intersections of financial systems, economic theory, and emerging technologies.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!--Resume Section-->
-    <section class="section" id="resume">
+    <section id="skills" class="section bg-light">
         <div class="container">
-            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Expertise</h4>
-                                <span class="line"></span>  
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <span>R</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 40%"></div>
                             </div>
                         </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">2022 - Present</h6>
-                            <P>Graphic Designer</P>
-                            <P class="subtitle">I spent most of my time designing logos and posts for my projects
-
-                            </P>
-                            <hr>
-                            <h6 class="title text-danger">2021 - Present</h6>
-                            <P>Front-end Developer</P>
-                            <P class="subtitle">I am a self-employed junior frontend developer</P>
-                            <hr>
-                            <h6 class="title text-danger">2019 - 2021</h6>
-                            <P>Sales Assistant</P>
-                            <P class="subtitle">Having worked part-time at a grocery store as a sales assistant, I gained experience in merchandising, customer service, and sales techniques.
-                            </P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="mt-2">
-                                <h4>Education</h4>
-                                <span class="line"></span>  
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 50%"></div>
                             </div>
                         </div>
-                        <div class="card-body">
-                            <h6 class="title text-danger">2024 - Present</h6>
-                            <P>CAU - Bachelor's degree</P>
-                            <P class="subtitle">I study at Central Asian University with 100% scholarship. I am majoring in Accounting and Finance</P>
-                            <hr>
-				<h6 class="title text-danger">2022 - 2024</h6>
-                            <P>Sodiq School - Private High School</P>
-                            <P class="subtitle">I study at Sodiq School with 100% scholarship. At this school, we have a wide range of extracurricular activities, such as sports teams, clubs and foreign language instruction, that students can participate in.</P>
-                            <hr>
-                            <h6 class="title text-danger">2021 - 2022</h6>
-                            <P>Presidential School in Jizzakh</P>
-                            <P class="subtitle">The Presidential School is a specialized public educational institution whose activities are aimed at identifying and educating gifted children to train highly qualified specialists.</P>
-                            <hr>
-                            <h6 class="title text-danger">2013 - 2021</h6>
-                            <P>Public School №27 in Sharof Rashidov, Jizzakh</P>
-                            <P class="subtitle">I studied at public school, which is located in my hometown Jizzakh, until my 9th grade</P>
-                            
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Web: HTML, CSS, Bootstrap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Prompt Engineering</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Skills</h4>
-                                <span class="line"></span>  
+                <div class="skill-category">
+                    <h3>Others</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <span>Microsoft Tools: Word, Excel, PowerPoint</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
                             </div>
                         </div>
-                        <div class="card-body pb-2">
-                           <h6>HTML &amp; CSS3</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>JavaScript</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Bootstrap</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>SCSS</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Canva</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Figma</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Word & Excel & Power Point</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>Project Management</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="skill-item">
+                            <span>Statistical Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                       <div class="card-header">
-                            <div class="pull-left">
-                                <h4 class="mt-2">Languages</h4>
-                                <span class="line"></span>  
+                        <div class="skill-item">
+                            <span>Academic Research</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
                             </div>
                         </div>
-                        <div class="card-body pb-2">
-                           <h6>English</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="skill-item">
+                            <span>Time Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
                             </div>
-                            <h6>Uzbek</h6>
-                            <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Graphic Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 50%"></div>
                             </div>
                         </div>
                     </div>
@@ -249,268 +184,469 @@ Highly motivated and versatile individual with a strong academic background in A
         </div>
     </section>
 
-    <section class="section bg-dark py-5">
-        <div class="container text-center">
-            <h2 class="text-light mb-5 font-weight-normal">Contact Me</h2>
-            <button class="btn bg-primary w-lg" >Mail</button>
+<!-- Add these sections after the "Experiences" section and before the "Skills" section -->
+
+<!-- Add these sections after the "Experiences" section and before the "Skills" section -->
+
+<!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item current">
+                    <div class="education-period">
+                        <span class="year">2021 - 2022</span>
+                        <span class="status-badge current">Graduated</span>
+                    </div>
+                    <div class="education-content">
+                        <h3>High School Diploma</h3>
+                        <h4>Presidential School in Jizzakh</h4>
+                        <div class="education-details">
+                            <div class="detail-item">
+                                <i class="icon">📊</i>
+                                <span><strong>GPA:</strong> 3.8/4.0</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="icon">🎯</i>
+                                <span><strong>Focus:</strong> STEAM Subjects</span>
+                            </div>
+                        </div>
+                        <div class="achievements">
+                            <h5>Key Achievements:</h5>
+                            <ul>
+                                <li>Regional English Olympiad - 1st place</li>
+                                <li>Computer Science Club President</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-item current">
+                    <div class="education-period">
+                        <span class="year">2022 - 2024</span>
+                        <span class="status-badge current">Graduated</span>
+                    </div>
+                    <div class="education-content">
+                        <h3>High School Diploma</h3>
+                        <h4>Sodiq School</h4>
+                        <div class="education-details">
+                            <div class="detail-item">
+                                <i class="icon">📊</i>
+                                <span><strong>GPA:</strong> 4.0/4.0</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="icon">🎯</i>
+                                <span><strong>Focus:</strong> Mathematics & Islamic Finance</span>
+                            </div>
+                        </div>
+                        <div class="achievements">
+                            <h5>Key Achievements:</h5>
+                            <ul>
+                                <li>The Student of the Year - 2022-2023</li>
+                                <li>Debate Club President</li>
+                                <li>Member of Student Union</li>
+                                <li>Zakovat Quiz - 1st Place</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-item upcoming">
+                    <div class="education-period">
+                        <span class="year">2026 - 2030</span>
+                        <span class="status-badge upcoming">Upcoming</span>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor's Degree (Target)</h3>
+                        <h4>Economics / Finance</h4>
+                        <div class="education-details">
+                            <div class="detail-item">
+                                <i class="icon">🎓</i>
+                                <span><strong>Target School:</strong> CMU-Q</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="icon">📚</i>
+                                <span><strong>Intended Major:</strong> Business Administration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-<section class="section bg-info py-5">
-        <div class="container text-center">
-	    <h2 class="text-light mb-5 font-weight-normal">My ChatBot</h2>
-		 <img src="assets/imgs/frame.png" class="img-fluid" alt="">
-	</div>
-</section>
-
-    <!-- Portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
+    <!-- Additional Info Section -->
+    <section id="additional-info" class="section">
         <div class="container">
-            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
-            <div class="portfolio">
-                <div class="filters" style="display: flex; justify-content: center; align-items: center;">
-                    <a href="#" data-filter=".new" class="active">
-                        All
-                    </a>
-                </div>
-                <div class="portfolio-container"> 
-                    <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/sat.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">My SAT score</h6>
-                                    <p class="subtitle">I took the test in December, 2022</p>
-                                </div>
-                            </div>   
-                        </div>             
-                    </div>
-                    <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/webb1.jpg" class="img-fluid" alt="">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/webb1.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">My IELTS score</h6>
-                                    <p class="subtitle">I took the test in December, 2022</p>
-                                </div>
-                            </div> 
-                        </div>                         
-                    </div>
-                    <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/cru.jpg" class="img-fluid" alt="">                         
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/cru.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">CleanRideUz</h6>
-                                    <p class="subtitle">Founder of "CleanRIdeUz"</p>
-                                </div>
-                            </div>    
-                        </div>              
-                    </div> 
-                    <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/cs-olimp.jpg" class="img-fluid" alt="">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/cs-olimp.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Regional Computer Science Olympiad</h6>
-                                    <p class="subtitle">I got 3rd place in Regional CS Olympiad</p>
-                                </div>
+            <h2 class="section-title">Additional Information</h2>
+            
+            <div class="info-layout">
+                <!-- Left Column: Test Scores and Languages -->
+                <div class="info-column">
+                    <!-- Test Scores Card -->
+                    <div class="info-card test-scores">
+                        <div class="card-header">
+                            <h3>Test Scores</h3>
+                            <span class="card-icon">📝</span>
+                        </div>
+                        <div class="scores-grid">
+                            <div class="score-item">
+                                <div class="score-label">SAT</div>
+                                <div class="score-value">1540</div>
+                                <div class="score-breakdown">Math: 800 | EBRW: 740</div>
                             </div>
-                        </div>                                                     
+                            <div class="score-item">
+                                <div class="score-label">IELTS</div>
+                                <div class="score-value">7.5</div>
+                                <div class="score-breakdown">Advanced</div>
+                            </div>
+                            <div class="score-item">
+                                <div class="score-label">At-Tanal</div>
+                                <div class="score-value">78</div>
+                                <div class="score-breakdown">Upper-Intermediate [B2]</div>
+                            </div>
+                            <!-- <div class="score-item">
+                                <div class="score-label">TOEFL</div>
+                                <div class="score-value">118</div>
+                                <div class="score-breakdown">Out of 120</div>
+                            </div> -->
+                        </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 new"> 
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/en-olimp.jpg" class="img-fluid" alt="">                               
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/en-olimp.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Regional English Olympiad</h6>
-                                    <p class="subtitle">I got 1st place in Regional English Olympiad</p>
+                    <!-- Languages Card -->
+                    <div class="info-card languages">
+                        <div class="card-header">
+                            <h3>Languages</h3>
+                            <span class="card-icon">🌐</span>
+                        </div>
+                        <div class="language-list">
+                            <div class="language-item">
+                                <div class="language-header">
+                                    <span class="language-name">Uzbek</span>
+                                    <span class="proficiency native">Native</span>
+                                </div>
+                                <div class="language-bar">
+                                    <div class="language-progress" style="width: 100%"></div>
                                 </div>
                             </div>
-                        </div>                                                       
-                    </div> 
-                    <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/journal.jpg" class="img-fluid" alt="">  
-                           <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/journal.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Published a School Journal</h6>
-                                    <p class="subtitle">Member of School Journalists | Writer</p>
+                            <div class="language-item">
+                                <div class="language-header">
+                                    <span class="language-name">English</span>
+                                    <span class="proficiency fluent">Fluent</span>
+                                </div>
+                                <div class="language-bar">
+                                    <div class="language-progress" style="width: 90%"></div>
                                 </div>
                             </div>
-                        </div>                                                     
-                    </div>
-                    <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/Itech.jpg" class="img-fluid" alt="">       
-                           <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/Itech.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">ITech Group</h6>
-                                    <p class="subtitle">Founder of "ITech Group"</p>
+                            <div class="language-item">
+                                <div class="language-header">
+                                    <span class="language-name">Arabic</span>
+                                    <span class="proficiency intermediate">Upper-Intermediate</span>
+                                </div>
+                                <div class="language-bar">
+                                    <div class="language-progress" style="width: 70%"></div>
                                 </div>
                             </div>
-                        </div>                                                       
-                    </div> 
-                    <div class="col-md-6 col-lg-4 new"> 
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/charity.jpg" class="img-fluid" alt="">            
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/charity.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Charity from Journalists</h6>
-                                    <p class="subtitle">We donated the profit we got from publishing journal</p>
+                            <div class="language-item">
+                                <div class="language-header">
+                                    <span class="language-name">Russian</span>
+                                    <span class="proficiency basic">Basic</span>
+                                </div>
+                                <div class="language-bar">
+                                    <div class="language-progress" style="width: 20%"></div>
                                 </div>
                             </div>
                         </div>
-                                
-                    </div> 
-                    <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/ibrat.jpg" class="img-fluid" alt="">  
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/ibrat.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Won Free Camp</h6>
-                                    <p class="subtitle">I got accepted to the camp by Youth Agency Uzbekistan</p>
-                                </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interests -->
+                <div class="info-column">
+                    <!-- Interests Card -->
+                    <div class="info-card interests full-height">
+                        <div class="card-header">
+                            <h3>Interests & Hobbies</h3>
+                            <span class="card-icon">⭐</span>
+                        </div>
+                        <div class="interests-grid">
+                            <div class="interest-item">
+                                <div class="interest-icon">📈</div>
+                                <h4>Finance & Econ</h4>
+                                <p>Behavioral economics, options strategies, and market analysis</p>
                             </div>
-                        </div>                                                     
-                    </div> 
-                    <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/ps-class.jpg" class="img-fluid" alt="">   
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/ps-class.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">My Classmates at Presidential School</h6>
-                                    <p class="subtitle">I studied at a Presidential School in 2021</p>
-                                </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">🤖</div>
+                                <h4>Machine Learning</h4>
+                                <p>Algorithmic trading and predictive modeling</p>
                             </div>
-                        </div>                                                    
+                            <div class="interest-item">
+                                <div class="interest-icon">♟️</div>
+                                <h4>Language Learning</h4>
+                                <p>Passionate about languages</p>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">🏃</div>
+                                <h4>Triathlon</h4>
+                                <p>Marathon running and competitive swimming</p>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">📖</div>
+                                <h4>Reading</h4>
+                                <p>From fiction to literary pieces</p>
+                            </div>
+                            <div class="interest-item">
+                                <div class="interest-icon">🏆</div>
+                                <h4>Competitions</h4>
+                                <p>Hackathons and Competitions</p>
+                            </div>
+                        </div>
                     </div>
-                </div> 
-            </div>  
-        </div>            
-    </section>
-    <!-- End of portfolio section -->
-
-    <section class="section" id="blog">
-        <div class="container">
-            <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
-            <div class="row">
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="assets/imgs/blog1.jpg" alt="">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Soon Coming...</h6>
-
-                        <p class="post-details">
-                            <a href="#">By: Abbos Mavlonov</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 0</a>
-                            <a href="#"><i class="ti-comment"></i> 0</a>
-                        </p>
-                        
-                        <p>Post</p>
-
-                        <p><b>Post</b></p>
-                        <p></p>
-
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-
+                </div>
             </div>
         </div>
     </section>
 
-    <div class="section contact" id="contact">
-        <div id="map" class="map"></div>
+    <section id="courses" class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message</h4>
-                        <form action="">
-                            <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Name *" required>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
-                            </div>
-                            <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
-                            </div>
-                        </form>
+            <h2 class="section-title">Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card completed">
+                    <div class="course-header">
+                        <!-- <span class="course-code">ECON 101</span> -->
+                        <span class="course-status">Completed</span>
+                    </div>
+                    <h3>Principles of Business</h3>
+                    <p>Fundamental principles of business</p>
+                </div>
+                <div class="course-card completed">
+                    <div class="course-header">
+                        <!-- <span class="course-code">CS 50</span> -->
+                        <span class="course-status">Completed</span>
+                    </div>
+                    <h3>Academic English</h3>
+                    <p>Reading college-level literatures and writing reflections</p>
+                </div>
+                <div class="course-card completed">
+                    <div class="course-header">
+                        <!-- <span class="course-code">CS 50</span> -->
+                        <span class="course-status">Completed</span>
+                    </div>
+                    <h3>Bloomberg Finance Fundamentals</h3>
+                    <p>Learning about the finance world</p>
+                </div>
+                <div class="course-card completed">
+                    <div class="course-header">
+                        <!-- <span class="course-code">DATA 100</span> -->
+                        <span class="course-status">Completed</span>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Coding essentials to build a website</p>
+                </div>
+                <div class="course-card completed">
+                    <div class="course-header">
+                        <!-- <span class="course-code">DATA 100</span> -->
+                        <span class="course-status">Completed</span>
+                    </div>
+                    <h3>AI Tools</h3>
+                    <p>Moder AI tools to use in personal and academic life </p>
+                </div>
+                <div class="course-card completed">
+                    <div class="course-header">
+                        <!-- <span class="course-code">DATA 100</span> -->
+                        <span class="course-status">Completed</span>
+                    </div>
+                    <h3>Understanding Research Methods</h3>
+                    <p>Research methodoligies to use while writing a research paper</p>
+                </div>
+                <div class="course-card in-progress">
+                    <div class="course-header">
+                        <!-- <span class="course-code">DATA 100</span> -->
+                        <span class="course-status">In Progress</span>
+                    </div>
+                    <h3>Principles of Microeconomics</h3>
+                    <p>Basic principles of economic concepts</p>
+                </div>
+                <div class="course-card in-progress">
+                    <div class="course-header">
+                        <!-- <span class="course-code">DATA 100</span> -->
+                        <span class="course-status">In Progress</span>
+                    </div>
+                    <h3>Data Science and Artificial Intelligence</h3>
+                    <p>From analayzing and formatting the data to modelling</p>
+                </div>
+                <div class="course-card planned">
+                    <div class="course-header">
+                        <!-- <span class="course-code">FIN 201</span> -->
+                        <span class="course-status">Planned</span>
+                    </div>
+                    <h3>Financial Markets</h3>
+                    <p>Understanding financial instruments and markets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="books" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Reading List</h2>
+            <div class="books-grid">
+                <div class="book-card">
+                    <div class="book-status reading">Currently Reading</div>
+                    <h3>Common Sense Economics</h3>
+                    <p class="book-author">James D. Gwartney et al</p>
+                    <p class="book-description">Exploring the two systems that drive the way we think</p>
+                </div>
+                <div class="book-card">
+                    <div class="book-status reading">Currently Reading</div>
+                    <h3>The Master and Margarita</h3>
+                    <p class="book-author">Mikhail Bulgakov</p>
+                    <p class="book-description">A surreal clash of good, evil, and bureaucracy</p>
+                </div>
+                <div class="book-card">
+                    <div class="book-status completed">Completed</div>
+                    <h3>Halqa</h3>
+                    <p class="book-author">Akrom Malik</p>
+                    <p class="book-description">Life-stories and struggles of people</p>
+                </div>
+                <div class="book-card">
+                    <div class="book-status completed">Completed</div>
+                    <h3>Teach Like a Champion</h3>
+                    <p class="book-author">Doug Lemov</p>
+                    <p class="book-description">Principles of teaching and delivering interesting and impactful lessons</p>
+                </div>
+                <div class="book-card">
+                    <div class="book-status completed">Completed</div>
+                    <h3>Men in the Sun</h3>
+                    <p class="book-author">Ghassan Kanafani</p>
+                    <p class="book-description">A tragic tale of displaced men and thwarted dreams.</p>
+                </div>
+                <div class="book-card">
+                    <div class="book-status planned">To Read</div>
+                    <h3>The Black Swan</h3>
+                    <p class="book-author">Nassim Nicholas Taleb</p>
+                    <p class="book-description">The impact of highly improbable events</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sports" class="section">
+        <div class="container">
+            <h2 class="section-title">Duathlon Progress</h2>
+            <div class="sports-dashboard">
+                <div class="sport-stats">
+                    <div class="stat-card">
+                        <h3>Running</h3>
+                        <div class="stat-value">10 km</div>
+                        <div class="stat-label">Average Distance</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Swimming</h3>
+                        <div class="stat-value">1.5 km</div>
+                        <div class="stat-label">Average Distance</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Weekly Training</h3>
+                        <div class="stat-value">5 days</div>
+                        <div class="stat-label">Consistency</div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="contact-info-card">
-                        <h4 class="contact-title">Get in touch</h4>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-mobile icon-md"></i>
-                            </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (998) 905159789</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-map-alt icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">19, 4, Sergeli 7 SG38, Tashkent, Uzbekistan.</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-envelope icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">mabbos61@gmail.com</span></h6>
-                            </div>
-                        </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        </ul> 
+                <!-- <div class="chart-container">
+                    <canvas id="progressChart"></canvas>
+                </div> -->
+                <div class="sport-stats">
+                    <div class="stat-card">
+                        <h3>Longest Run</h3>
+                        <div class="stat-value">25 km</div>
+                        <div class="stat-label">May 24</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Coming Marathon</h3>
+                        <div class="stat-value">Zaamin UltraMarathon</div>
+                        <div class="stat-label">Date: June 15. Distance: 21km</div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Total Running Distance</h3>
+                        <div class="stat-value">~200 km</div>
+                        <div class="stat-label">2025</div>
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
+    </section>
 
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- <section id="blog" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-date">March 15, 2024</div>
+                    <h3>Coming Soon...</h3>
+                    <p>A beginner's guide to building your first DCF model...</p>
+                    <a href="#" class="blog-link">Read More →</a>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-date">March 15, 2024</div>
+                    <h3>Coming Soon...</h3>
+                    <p>A beginner's guide to building your first DCF model...</p>
+                    <a href="#" class="blog-link">Read More →</a>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-date">March 15, 2024</div>
+                    <h3>Coming Soon...</h3>
+                    <p>A beginner's guide to building your first DCF model...</p>
+                    <a href="#" class="blog-link">Read More →</a>
+                </article>
+            </div>
+        </div>
+    </section> -->
 
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <!-- <section id="plans" class="section">
+        <div class="container">
+            <h2 class="section-title">Future Plans</h2>
+            <div class="plans-timeline">
+                <div class="plan-item">
+                    <div class="plan-year">2025</div>
+                    <div class="plan-content">
+                        <h3>University Applications</h3>
+                        <p>Apply to top economics and finance programs</p>
+                    </div>
+                </div>
+                <div class="plan-item">
+                    <div class="plan-year">2025</div>
+                    <div class="plan-content">
+                        <h3>Begin Undergraduate Studies</h3>
+                        <p>Major in Economics with a concentration in Quantitative Finance</p>
+                    </div>
+                </div>
+                <div class="plan-item">
+                    <div class="plan-year">2026</div>
+                    <div class="plan-content">
+                        <h3>Summer Internship</h3>
+                        <p>Seek internship opportunities in investment banking or fintech</p>
+                    </div>
+                </div>
+                <div class="plan-item">
+                    <div class="plan-year">2029</div>
+                    <div class="plan-content">
+                        <h3>Graduate & Career</h3>
+                        <p>Join a leading financial institution or pursue graduate studies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-    <!-- Isotope  -->
-    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
-    
-    <!-- Google mpas -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Abbos Mavlonov. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/abbosmavlonov/" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://t.me/abbosmavlon" aria-label="GitHub">Telegram</a>
+                <a href="mailto:mabbos61@gmail.com" aria-label="Email">Email</a>
+            </div>
+        </div>
+    </footer>
 
-    <!-- JohnDoe js -->
-    <script src="assets/js/johndoe.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
